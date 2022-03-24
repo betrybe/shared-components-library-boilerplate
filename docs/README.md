@@ -22,17 +22,18 @@ A Branded Type for values parseable to number.
 
 #### Defined in
 
-[index.ts:4](https://github.com/VitorLuizC/typescript-library-boilerplate/blob/b445c8e/src/index.ts#L4)
+[index.ts:4](https://github.com/VitorLuizC/typescript-library-boilerplate/blob/e351731/src/index.ts#L4)
 
 ## Functions
 
 ### isNumberParseable
 
-▸ `Const` **isNumberParseable**(`value`): value is NumberParseable
+▸ **isNumberParseable**(`value`): value is NumberParseable
 
 Check if value is parseable to number.
 
-**`example`** ```ts
+**`example`**
+```js
 isNumberParseable('AAAA');
 //=> false
 
@@ -43,13 +44,12 @@ if (!isNumberParseable(value))
   throw new Error('Value can\'t be parseable to `Number`.')
 return Number(value);
 ```
-@param value - An `unknown` value to be checked.
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `value` | `unknown` |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `value` | `unknown` | An `unknown` value to be checked. |
 
 #### Returns
 
@@ -57,4 +57,4 @@ value is NumberParseable
 
 #### Defined in
 
-[index.ts:23](https://github.com/VitorLuizC/typescript-library-boilerplate/blob/b445c8e/src/index.ts#L23)
+[index.ts:24](https://github.com/VitorLuizC/typescript-library-boilerplate/blob/e351731/src/index.ts#L24)
